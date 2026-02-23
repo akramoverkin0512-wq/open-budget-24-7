@@ -30,4 +30,5 @@ jobs:
           # Tokenlarni GitHub Secrets orqali o'qish (Xavfsizlik uchun)
           API_TOKEN: ${{ secrets.API_TOKEN }}
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
+
         run: python main.py
